@@ -236,7 +236,11 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #fff url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -706,8 +710,8 @@ ul#nav li.current a { color: #F06000; }
     width: 12px;
     height: 12px;
     display: block;
-    background: #ddd;
-    background: rgba(255, 255, 255, .3);
+    background: #11ABB0;
+    background: #0f0f0f;
     cursor: pointer;
     text-indent: -9999px;
     -webkit-border-radius: 20px;
@@ -717,12 +721,12 @@ ul#nav li.current a { color: #F06000; }
     box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
 }
 .flex-control-paging li a:hover {
-    background: #CCC;
-    background: rgba(255, 255, 255, .7);
+    background: #0f0f0f;
+    background: #11ABB0;
 }
 .flex-control-paging li a.flex-active {
-    background: #fff;
-    background: rgba(255, 255, 255, .9);
+    background: #0f0f0f;
+    background: #11ABB0;
     cursor: default;
 }
 
