@@ -86,7 +86,7 @@
 	   if ( (y > h * 0.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
 	      nav.fadeOut('fast');
 	   }
-      else if (y < h*.20) {
+      else if (y < h * 0.20) {
             nav.removeClass('opaque').fadeIn('fast');
          }
          else {

@@ -805,6 +805,18 @@ ul#nav li.current a { color: #F06000; }
 	color: #fff;
 	background-color: #11ABB0;
 }
+#contact input[type="submit"] {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color:#fff;
+   background: #0D0D0D;
+	border: none;
+   cursor: pointer;
+   height: auto;
+   display: inline-block;
+	border-radius: 3px;
+   margin-left: 26%;
+}
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -816,6 +828,10 @@ ul#nav li.current a { color: #F06000; }
    display: inline-block;
 	border-radius: 3px;
    margin-left: 26%;
+}
+#contact input[type="submit"]:hover {
+	color: #0D0D0D;
+	background: #fff;
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
